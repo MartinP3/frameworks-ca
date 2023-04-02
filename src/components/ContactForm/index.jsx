@@ -1,5 +1,10 @@
 import "./styles.css"
 import { useForm } from 'react-hook-form'
+
+/**
+ * A form using the react-hook-form with great error handling for many scenarios and multiple issues while writing the same input as long as it doesn't meet the requirements.
+ */
+
 export function ContactForm() {
 
   const { register, handleSubmit, formState: {errors} } = useForm();

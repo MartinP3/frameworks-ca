@@ -4,6 +4,10 @@ import "./styles.css";
 import cartSvg from "../../../assets/cart.svg"
 import { useCart } from '../../../hooks/useCart';
 
+/**
+ * The header with various links and a div for showing when things are added to the cart and how much has been added.
+ */
+
 export function Nav() {
   const { cartCount } = useCart();
 

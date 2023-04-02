@@ -4,6 +4,10 @@ import { API_URL } from "../../utils/apiUrls"
 import { useCart } from '../../hooks/useCart';
 import { Main, GridContainer } from './index.styled';
 
+/*
+ * Pulls various functions from useCart, fetches the api and turns it into json for use. 
+ */
+
 function ProductsList() {
   const {products, fetchProducts, isLoading, hasErrors} = useCart();
 

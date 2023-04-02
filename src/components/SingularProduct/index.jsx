@@ -3,6 +3,10 @@ import { API_URL } from '../../utils/apiUrls';
 import { useEffect, useState } from 'react';
 import * as S from "./index.styled"
 
+/*
+ * Gets the url from the browser, splits out the product part and leaves me with just the product id
+ */
+
 export function SingularProduct()
 {
   const url = new URL(window.location.href);

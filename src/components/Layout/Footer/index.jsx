@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom';
 import { FooterContent, FooterText } from './index.styled';
 
+/**
+ * Simple footer to show copyright info and a link to the contact page form. 
+ */
+
 export function Footer()  {
   return (
     <FooterContent>

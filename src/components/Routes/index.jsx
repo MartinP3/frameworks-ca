@@ -6,6 +6,10 @@ import { CheckoutSuccess } from "../../pages/CheckoutSuccess";
 import { Product } from "../../pages/Product";
 import { NotFound } from "../../pages/NotFound";
 
+/*
+*   Barrel file for adding all site destinations and what should appear on them.
+*/
+
 export function SiteRoutes() {
   return (
     <Routes>

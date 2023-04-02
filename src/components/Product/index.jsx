@@ -2,6 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import * as S from "./index.styled"
 
+/**
+ * Destructures the keys for shorthand use.
+ */
+
 export function Product({ product: { 
   title,
   description,
