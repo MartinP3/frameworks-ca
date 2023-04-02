@@ -14,4 +14,12 @@ export const FooterContent = styled.footer`
 
 export const FooterText = styled.div`
   text-transform: uppercase;
+  > a {
+    padding: 0.25rem;
+    text-decoration: underline rgba(0, 0, 0, 0);
+    transition: text-decoration-color 400ms ease-in-out;
+  }
+  > a:hover {
+    text-decoration: underline rgba(0, 0, 0, 1);
+  }
 `;
