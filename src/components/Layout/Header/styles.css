@@ -1,0 +1,68 @@
+/* Having trouble figuring out how things should go with styled components, which is a lovely and honestly pretty interesting styling solution*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 3rem;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  color: black;
+}
+
+nav a {
+  color: inherit;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+  text-decoration: underline rgba(0, 0, 0, 0);
+  transition: text-decoration-color 400ms ease-in-out;
+}
+
+nav a:hover {
+  text-decoration-color: rgba(0, 0, 0, 1);
+}
+
+.cartIcon {
+  position: relative;
+}
+
+.cartCountBadge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(44, 49, 206);
+  color: white;
+  font-size: 12px;
+}
+
+.cartSvg {
+  max-height: 25px;
+}
+
+@media (max-width: 400px) {
+  nav ul {
+    gap: 0;
+  }
+}
