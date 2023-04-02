@@ -1,9 +1,15 @@
-import { FooterContent } from './index.styled';
+import { Link } from 'react-router-dom';
+import { FooterContent, FooterText } from './index.styled';
 
 export function Footer()  {
   return (
     <FooterContent>
-      <div>FOOTER</div>
+      <FooterText>&#169; MP Productions</FooterText>
+      <FooterText>
+        <Link to="/contact">contact</Link>
+      </FooterText>
     </FooterContent>
   )
 }
+
+// Not the fanciest footer in the game but a footer nonetheless!
