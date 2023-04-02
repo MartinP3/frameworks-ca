@@ -1,5 +1,3 @@
-/* Having trouble figuring out how things should go with styled components, which is a lovely and honestly pretty interesting styling solution*/
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -8,20 +6,12 @@ nav {
   padding: 0 3rem;
 }
 
-.site-title {
-  font-size: 2rem;
-}
-
 nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
   gap: 1rem;
-}
-
-a {
-  color: black;
 }
 
 nav a {
@@ -36,6 +26,14 @@ nav a {
 
 nav a:hover {
   text-decoration-color: rgba(0, 0, 0, 1);
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.cartSvg {
+  max-height: 25px;
 }
 
 .cartIcon {
@@ -55,10 +53,6 @@ nav a:hover {
   background-color: rgb(44, 49, 206);
   color: white;
   font-size: 12px;
-}
-
-.cartSvg {
-  max-height: 25px;
 }
 
 @media (max-width: 400px) {
