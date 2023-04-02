@@ -7,7 +7,7 @@ export function CheckoutPage()
   const cartData = localStorage.getItem("cart")
   console.log(cartData)
   const parsedData = JSON.parse(cartData) || {};
-  // console.log(parsedData)
+  console.log(parsedData)
   const [data, setData] = useState([]);
 
   useEffect(() => {
