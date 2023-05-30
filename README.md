@@ -1,32 +1,42 @@
-### `npm start`
+# Frameworks Course Assignment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## OnlineShopz
+![230530180445](https://github.com/MartinP3/frameworks-ca/assets/70173574/941d6130-4f32-4d47-9b8c-4db8ff794130)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Onlineshopz is a online shopping site where you can purchase a select few items that are listed on the store.
 
-### `npm test`
+## Description
+with OnlineShopz you can view a diverse variety of items, add them to your shopping cart and when satifised with the haul one can head to the checkout to finally purchase the products.
+- OnlineShopz was a school project for practicing working with the React framework.
+- Practice working with APIs and roadbumps to conditionally handle data, i.e show scratch out old price if there's a discounted price.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
+- ([React](react.dev))
+- ([Styled Components](https://styled-components.com/))
 
-### `npm run build`
+### Dependencies used
+- ([React-hook-form](https://react-hook-form.com/))
+- ([React-router](https://reactrouter.com/en/main))
+- ([Zustand](https://github.com/pmndrs/zustand))
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting started
+#### Cloning the repo
+```
+git clone https://github.com/MartinP3/frameworks-ca.git
+```
+or
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![230530184837](https://github.com/MartinP3/frameworks-ca/assets/70173574/091c5e3e-759d-4b35-8128-1cd6f9442acf)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Installing dependencies
+```
+npm install
+```
 
-### `npm run eject`
+#### Running the app
+```
+npm run dev
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
+([Twitter](twitter.com/terriblecoding))
