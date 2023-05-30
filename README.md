@@ -11,13 +11,13 @@ with OnlineShopz you can view a diverse variety of items, add them to your shopp
 - Practice working with APIs and roadbumps to conditionally handle data, i.e show scratch out old price if there's a discounted price.
 
 ## Built With
-- ([React](react.dev))
-- ([Styled Components](https://styled-components.com/))
+- [React](https://react.dev)
+- [Styled Components](https://styled-components.com/)
 
 ### Dependencies used
-- ([React-hook-form](https://react-hook-form.com/))
-- ([React-router](https://reactrouter.com/en/main))
-- ([Zustand](https://github.com/pmndrs/zustand))
+- [React-hook-form](https://react-hook-form.com/)
+- [React-router](https://reactrouter.com/en/main)
+- [Zustand](https://github.com/pmndrs/zustand)
 
 ## Getting started
 #### Cloning the repo
@@ -39,4 +39,4 @@ npm run dev
 ```
 
 ## Contact
-([Twitter](twitter.com/terriblecoding))
+[Twitter](https://twitter.com/terriblecoding)
