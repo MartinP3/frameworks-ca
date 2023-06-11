@@ -1,5 +1,7 @@
 # Frameworks Course Assignment
 
+[Live site](https://dancing-liger-7f39c9.netlify.app/)
+
 ## OnlineShopz
 ![230530180445](https://github.com/MartinP3/frameworks-ca/assets/70173574/941d6130-4f32-4d47-9b8c-4db8ff794130)
 
